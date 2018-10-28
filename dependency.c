@@ -42,7 +42,7 @@ int main () {
       SERIAL COMPUTATION
       Serial version for testing correctness
     */
-#pragma omp proc_bind(spread) scedule(dynamic)
+#pragma omp proc_bind(spread) schedule(dynamic)
  
     for(k=0;k<5;k++) {
 	for(i=1;i<N;i++) {
